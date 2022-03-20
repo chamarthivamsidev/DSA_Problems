@@ -8,8 +8,10 @@
 
 //Note : if element present print index or print -1.
 
+let arr = [1, 3, 4, 5, 5, 8, 9];
+let k = 5;
 let low = 0;
-let high = n - 1;
+let high = arr.length - 1;
 
 console.log(binarySearch(arr, low, high));
 
